@@ -1,6 +1,6 @@
 extends Node
 
-
+var wCt = WeaponDictionary.weaponCount
 var weaponData = {
 	"name" : "",
 	"tier" : 0,
@@ -25,7 +25,7 @@ func _ready():
 func assign(weaponID:int): #1 params
 	weaponData["name"] = WeaponDictionary.weaponDictName[weaponID];
 	weaponData["tier"] = 0;
-	weaponData["type"] = "";
+	weaponData["type"] = WeaponDictionary.weaponDictType[weaponID];
 	weaponData["path"] = WeaponDictionary.weaponDictPath[weaponID];
 	weaponData["damage"] = WeaponDictionary.weaponDictDamage[weaponID];
 	weaponData["range"] = WeaponDictionary.weaponDictRange[weaponID];
