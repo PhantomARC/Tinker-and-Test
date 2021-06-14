@@ -105,3 +105,17 @@ var weaponDictPath = {
 }
 
 var weaponCount = 22
+
+var partDictData = {
+	#Name, path
+	1 : ["boomerang", "res://Icon/Particles/boomerang.png"],
+	2 : ["bullet", "res://Icon/Particles/bullet.png"],
+	3 : ["cross", "res://Icon/Particles/cross.png"],
+	4 : ["line", "res://Icon/Particles/line.png"],
+	5 : ["pellet", "res://Icon/Particles/pellet.png"],
+	6 : ["poke", "res://Icon/Particles/poke.png"],
+	7 : ["rocket", "res://Icon/Particles/rocket.png"],
+	8 : ["slam", "res://Icon/Particles/slam.png"],
+	9 : ["slash", "res://Icon/Particles/slash.png"],
+	10 : ["zone", "res://Icon/Particles/zone.png"],
+}
